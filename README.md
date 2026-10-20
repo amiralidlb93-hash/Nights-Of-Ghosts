@@ -4,7 +4,7 @@
 
 A Persian (RTL) Halloween browser game. Hunt ghosts in a dark graveyard using only your lantern light.
 
-🎮 **دمو آنلاین / Live Demo:** [اینجا بازی کن / Play here](https://claude.ai/artifact/NP2nLyivghN14yC4Udwwb6)
+👉 **[enter the live demo!](https://amiralidlb93-hash.github.io/amirali-hq/)**
 
 ## ویژگی‌ها
 
