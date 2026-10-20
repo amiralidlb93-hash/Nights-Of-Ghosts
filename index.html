@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#07030d">
+<title>شب ارواح | شکار ارواح هالووین</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c" aria-hidden="true"></canvas>
+<button class="language-switch" id="languageSwitch" type="button" aria-label="Switch to English">English</button>
+<div class="hud" aria-live="off">
+  <span><span data-i18n="scoreLabel">ارواح</span>: <b id="sc">۰</b></span>
+  <span>⏱ <span data-i18n="timeLabel">زمان</span>: <b id="tm">۴۵</b></span>
+  <span><span data-i18n="levelLabel">مرحله</span>: <b id="lv">۱</b></span>
+  <span><span data-i18n="bestLabel">رکورد</span>: <b id="bs">۰</b></span>
+</div>
+
+<div class="ov" id="menu">
+  <h1 data-i18n="title">شب ارواح</h1>
+  <p data-i18n="intro">قبرستون تاریکه. با فانوست ارواح رو پیدا کن و روشون بزن. روح طلایی ۵ امتیاز داره! حرکت موس یا انگشت برای نشونه‌گیری؛ کلیک یا تپ برای شلیک.</p>
+  <button id="go" data-i18n="start">شروع شکار 🎃</button>
+  <button class="ghost" id="invb" data-i18n="inviteButton">دعوت‌نامه‌ی مهمونی 💌</button>
+</div>
+<div class="ov" id="end" hidden>
+  <div data-i18n="timeUp">وقت تموم شد</div>
+  <div class="big" id="fin">۰</div>
+  <p id="verdict"></p>
+  <button id="again" data-i18n="again">یه دور دیگه</button>
+</div>
+
+<div class="ov" id="inv" hidden>
+  <h1 class="invite-heading" data-i18n="inviteTitle">دعوت‌نامه</h1>
+  <label><span data-i18n="hostLabel">اسم میزبان</span><input id="hn" value="علی"></label>
+  <label><span data-i18n="dateLabel">تاریخ و ساعت</span><input id="dt" value="جمعه ۳۱ اکتبر، ساعت ۸ شب"></label>
+  <label><span data-i18n="locationLabel">مکان</span><input id="pl" value="خونه‌ی ما"></label>
+  <label><span data-i18n="dressLabel">کد لباس</span><input id="dc" value="ترسناک‌ترین لباستو بپوش"></label>
+  <div id="cardT"></div>
+  <div><button id="cp" data-i18n="copyButton">کپی متن</button> <button class="ghost" id="back" data-i18n="backButton">بازگشت</button></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
