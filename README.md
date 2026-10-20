@@ -4,7 +4,7 @@
 
 A Persian (RTL) Halloween browser game. Hunt ghosts in a dark graveyard using only your lantern light.
 
-👉 **[enter the live demo!](https://amiralidlb93-hash.github.io/Nights-Of-Ghosts-/)**
+👉 **[enter the live demo!](https://amiralidlb93-hash.github.io/Nights-Of-Ghosts/)**
 
 ## ویژگی‌ها
 
