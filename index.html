@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شب ارواح | شکار ارواح هالووین</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="hud" aria-live="off"><span>ارواح: <b id="sc">۰</b></span><span>⏱ <b id="tm">۴۵</b></span><span>مرحله: <b id="lv">۱</b></span><span>رکورد: <b id="bs">۰</b></span></div>
+
+<div class="ov" id="menu">
+  <h1>شب ارواح</h1>
+  <p>قبرستون تاریکه. با فانوست ارواح رو پیدا کن و روشون بزن. روح طلایی ۵ امتیاز داره!</p>
+  <button id="go">شروع شکار 🎃</button>
+  <button class="ghost" id="invb">دعوت‌نامه‌ی مهمونی 💌</button>
+</div>
+<div class="ov" id="end" hidden>
+  <div>وقت تموم شد</div>
+  <div class="big" id="fin">۰</div>
+  <p id="verdict"></p>
+  <button id="again">یه دور دیگه</button>
+</div>
+
+<div class="ov" id="inv" hidden>
+  <h1 style="font-size:2.2rem">دعوت‌نامه</h1>
+  <label>اسم میزبان<input id="hn" value="علی"></label>
+  <label>تاریخ و ساعت<input id="dt" value="جمعه ۳۱ اکتبر، ساعت ۸ شب"></label>
+  <label>مکان<input id="pl" value="خونه‌ی ما"></label>
+  <label>کد لباس<input id="dc" value="ترسناک‌ترین لباستو بپوش"></label>
+  <div id="cardT"></div>
+  <div><button id="cp">کپی متن</button> <button class="ghost" id="back">بازگشت</button></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
